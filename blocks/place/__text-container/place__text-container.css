@@ -1,0 +1,6 @@
+@media screen and (max-width: 700px) {
+    .place__text-container {
+      margin: 0 auto;
+      width: calc(100% - 32px);
+    }
+  }

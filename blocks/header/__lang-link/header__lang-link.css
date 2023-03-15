@@ -1,0 +1,36 @@
+.header__lang-link {
+  font-family: "Inter", "Arial", sans-serif;
+  line-height: 28px;
+  font-size: 24px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.header__lang-link:last-of-type {
+  margin-left: 15px;
+}
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+@media screen and (max-width: 1024px) {
+.header__lang-link:last-of-type {
+  margin-left: 14.75px;
+}
+}
+@media screen and (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+.header__lang-link:last-of-type {
+  margin-left: 14px;
+}
+}

@@ -1,0 +1,18 @@
+.place__url-container {
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    align-self: end;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .place__url-container {
+      padding-bottom: 5px;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .place__url-container {
+      margin-left: 16px;
+    }
+  }
