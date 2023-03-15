@@ -4,4 +4,4 @@
 
 Описание: Данный проект направлен на ознакомление с адаптивной вёрсткой
 
-vtlink.github.io
+https://vtlink.github.io/russian-travel/
