@@ -15,10 +15,11 @@
   opacity: 0.8;
 }
 @media screen and (max-width: 1024px) {
-.header__lang-link:last-of-type {
-  margin-left: 14.75px;
+  .header__lang-link:last-of-type {
+    margin-left: 14.75px;
+  }
 }
-}
+
 @media screen and (max-width: 767px) {
   .header__lang-link {
     font-size: 18px;
@@ -26,11 +27,7 @@
   }
 }
 @media screen and (max-width: 320px) {
-  .header__lang-link {
-    font-size: 18px;
-    line-height: 20px;
+  .header__lang-link:last-of-type {
+    margin-left: 14px; 
   }
-.header__lang-link:last-of-type {
-  margin-left: 14px;
-}
 }
